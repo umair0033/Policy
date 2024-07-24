@@ -1,0 +1,72 @@
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .policy, .head-2, .head-3, .head-4, .head-5, .head-6, .head-7, .head-8, .head-9 {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    margin: 0 0 1em;
+  }
+  
+  /* Specific Styles for Sections */
+  .policy {
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+  }
+  
+  .head-2, .head-3, .head-4, .head-5, .head-6, .head-7, .head-8, .head-9 {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .head-2 h1 {
+    color: #007bff;
+  }
+  
+  .head-3 h1, .head-4 h1, .head-5 h1, .head-6 h1, .head-7 h1, .head-8 h1, .head-9 h1 {
+    color: #333;
+  }
+  
+  .head-4 ul {
+    list-style: disc;
+    margin: 0 0 1em 2em;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .policy, .head-2, .head-3, .head-4, .head-5, .head-6, .head-7, .head-8, .head-9 {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1em;
+    }
+  
+    .policy, .head-2, .head-3, .head-4, .head-5, .head-6, .head-7, .head-8, .head-9 {
+      padding: 10px;
+    }
+  }
+  
